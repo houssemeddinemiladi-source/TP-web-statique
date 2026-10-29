@@ -1,11 +1,11 @@
 import React from 'react'
 
-function AiTypes() {
+function Learn() {
   return (
     <div>
-      AiTypes
+      Learn
     </div>
   )
 }
 
-export default AiTypes
+export default Learn

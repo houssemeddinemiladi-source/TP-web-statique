@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../components/navbar.jsx'
 import HeroSection from '../components/heroSection.jsx'
-import AiTypes from '../components/aiTypes.jsx'
-import AiBenefits from '../components/aiBenefits.jsx'
+import Categories from '../components/Categories.jsx'
+import Learn from '../components/Learn.jsx'
 import Contact from '../components/contact.jsx'
 import Footer from '../components/footer.jsx'
 
@@ -12,8 +12,8 @@ function Home() {
     <Navbar />
     <main>
         <HeroSection />
-        <AiTypes />
-        <AiBenefits />
+        <Categories />
+        <Learn />
         <Contact />
         <Footer />
     </main>
