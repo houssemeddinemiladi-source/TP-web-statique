@@ -8,7 +8,7 @@ const link=[
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen]=useState(false);
   return (
-    <nav className='bg-white text-orange-400 p-4 justify-between backdrop-blur-sm fixed w-full'>
+    <nav className='bg-white/80 backdrop-blur-md shadow-md fixed w-full z-50 p-4'>
       <div className='app-container flex justify-between items-center'>
         {/* Logo */}
         <span className='text-2xl font-bold gradient-text'>SkillSwap</span>
@@ -32,7 +32,7 @@ function Navbar() {
   
       {/* mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white shadow-lg rounded-b-lg px-2 pt-2 pb-3 space-y-1">
+        <div className="md:hidden pt-4">
           {link.map((link) => (
             <a key={link.name} className='mobile-nav-item' href={link.href}>
               {link.name}
